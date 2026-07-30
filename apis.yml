@@ -1,7 +1,26 @@
 aid: mediacao-online
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mediacao-online.png
 name: Mediacao Online
-description: Mediacao Online is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: MOL (Mediacao Online) is Brazil's first online dispute resolution (ODR)
+  platform, founded in 2014 in Sao Paulo. It is a 100% digital, automated platform
+  for negotiation, conciliation, and mediation that lets individuals, companies, and
+  institutions resolve conflicts extrajudicially without going to court. The CNJ-compliant
+  platform covers the full flow, from capturing cases in the courts, building agreement
+  policies, sanitizing and enriching data, through to agreement approval and payment.
+  MOL has facilitated tens of thousands of agreements and counts Magazine Luiza, Itau,
+  and Caixa Economica among its clients. It is backed by 500 Global, Wayra, Canary,
+  and Redpoint eventures. MOL exposes no public developer API or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/mediacao-online/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Legaltech
+- Online Dispute Resolution
+- Mediation
+- Conflict Resolution
+- Conciliation
+- Legal
+- Brazil
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,16 @@ maintainers:
 common:
 - type: Website
   url: https://mol.legal
+- type: Blog
+  url: https://academia.mol.legal/
+- type: TermsOfService
+  url: https://www.mediacaonline.com/termos
+- type: Support
+  url: https://www.mediacaonline.com/faq
+- type: LinkedIn
+  url: https://br.linkedin.com/company/media%C3%A7%C3%A3o-online
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
